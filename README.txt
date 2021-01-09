@@ -1,0 +1,1 @@
+Use:This code is used to access different directory class files from a another directory.That means reads class files from Employee and Manger to run and Application java file.
