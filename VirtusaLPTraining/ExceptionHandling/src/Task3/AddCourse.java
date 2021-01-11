@@ -1,6 +1,7 @@
 package Task3;
 
 
+import java.sql.SQLException;
 
 public class AddCourse {
     public static void main(String[] args) {
@@ -16,7 +17,7 @@ public class AddCourse {
     }
 
 
-    private static class InvalidSQLException extends Exception{
+    private static class InvalidSQLException extends SQLException{
         InvalidSQLException(String message){
             super(message);
         }
